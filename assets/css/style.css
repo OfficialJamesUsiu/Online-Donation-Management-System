@@ -1,0 +1,179 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: #115c9b;;  
+}
+
+.nav-bar img{
+    height: 50px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav-links {
+    margin-top: -38px;
+    margin-left: 80px;
+    word-spacing: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-links a:hover {
+    border: none;
+    /* background-color: orangered; */
+    cursor: pointer;
+    color: orangered;
+    word-spacing: 15px;
+    /* border-radius: 25px; */
+}
+/* login and signup button styling */
+.btn-login-signup {
+    position: absolute;
+    top: 10px;
+    left: 78%;
+    word-spacing: 15px;
+}
+
+/* code reuse for both button */
+.btn-login-signup button {
+    height: 50px;
+    width: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+#btn-login {
+    border: none;
+    background-color: #115c9b;
+    color: #fff;
+}
+
+#btn-login:hover {
+    border: none;
+    background-color: orangered;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 25px;
+}
+
+#btn-signup {
+    border: none;
+    border-radius: 25px;
+    background-color: orangered;
+    color: #fff;
+}
+
+#btn-signup:hover {
+    cursor: pointer;
+}
+
+
+/* body part */
+
+#canvas-image {
+    position: absolute;
+    width: 100%;
+    height: 88.875%;
+    z-index: -99999;
+}
+
+.banner {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 400px;
+    margin-top: 30px;
+    position: absolute;
+    text-align: center;
+}
+
+.banner img {
+    width: 75%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#banner-quote {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.get-started {
+    /* border:1px solid black; */
+    width: 60%;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 35%;
+    text-align: left;
+}
+
+#create-campaign {
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #115c9b;
+}
+
+/* .get-started button {
+    height: 60px;
+    width: 190px;
+    border-radius: 25px;
+    border: 1px solid #591484;
+    background-color: white;
+    outline: none;
+    margin-top: 200px;
+    margin-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+    font-size: 16px;
+}
+
+.get-started button:hover {
+   cursor: pointer;
+   background-color: #591484;
+    color: white;   
+    font-size: 14px;
+} */
+
+
+/* Footer section */
+
+.footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 2%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e4eaeb;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+#footer-trademark {
+    font-size: 16px;
+    color: antiquewhite;
+}
+

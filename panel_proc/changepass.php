@@ -1,0 +1,16 @@
+<?php
+    session_start();
+
+
+    require '../connect/coon.php';
+    require "../objects/Beneficiary.php";
+    $d=new Beneficiary();
+    if(hash('SHA256',$_POST['oldpassword'])==$_SESSION['password']){
+        $d->set_id($_SESSION['id_123'],$con);
+        $d->set_password(hash("SHA256",$_POST['newpassword']),$con);
+        echo $d->update_password($con).$_SESSION['id_123'];
+        session_destroy();
+    }else{
+        echo "Password changed Successfully!";
+    }
+?>
